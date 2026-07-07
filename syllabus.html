@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="light" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程大纲 - 人工智能生物学</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"PingFang SC"', '"Hiragino Sans GB"', '"Microsoft YaHei"', '"Noto Sans SC"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/lucide@1.8.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="site-container">
+            <div class="brand">
+                <span class="university">齐鲁师范学院</span>
+                <span class="separator">|</span>
+                <a href="index.html" class="title">人工智能生物学</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="syllabus.html">课程大纲</a>
+                <a href="team.html">教学团队</a>
+                <a href="resources.html">教学资源</a>
+                <a href="achievements.html">课程成果</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">
+                <i data-lucide="menu" class="w-5 h-5"></i>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-links">
+                <a href="index.html">首页</a>
+                <a href="syllabus.html">课程大纲</a>
+                <a href="team.html">教学团队</a>
+                <a href="resources.html">教学资源</a>
+                <a href="achievements.html">课程成果</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="page-header">
+            <div class="site-container">
+                <h1 class="heading-1">课程大纲</h1>
+                <p>专业选修课 | 08832015 | 2学分 | 32学时 | 第7学期</p>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-8 lg:mb-10">课程目标</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="inline-flex items-center justify-center w-8 h-8 text-white text-sm font-semibold shrink-0" style="background-color: var(--color-primary); border-radius: var(--radius-md);">1</span>
+                            <h3 class="heading-4">掌握分析原理</h3>
+                        </div>
+                        <p class="body-base">掌握大数据分析基本原理，借助现代工程与信息技术工具分析优化生物行业问题</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="inline-flex items-center justify-center w-8 h-8 text-white text-sm font-semibold shrink-0" style="background-color: var(--color-primary); border-radius: var(--radius-md);">2</span>
+                            <h3 class="heading-4">建立创新意识</h3>
+                        </div>
+                        <p class="body-base">熟悉大量大数据应用案例，建立创新意识，具备人文社会科学素养</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="inline-flex items-center justify-center w-8 h-8 text-white text-sm font-semibold shrink-0" style="background-color: var(--color-primary); border-radius: var(--radius-md);">3</span>
+                            <h3 class="heading-4">终身学习能力</h3>
+                        </div>
+                        <p class="body-base">主动学习，使用现代分析工具，终身学习和适应发展能力</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg-secondary);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-8 lg:mb-10">教学内容与进度</h2>
+                <div class="overflow-x-auto" style="border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+                    <table class="w-full text-left">
+                        <thead class="sticky top-0 z-10">
+                            <tr style="background-color: var(--color-primary);">
+                                <th class="px-4 sm:px-6 py-3 text-sm font-semibold text-white whitespace-nowrap" style="width: 18%;">章节</th>
+                                <th class="px-4 sm:px-6 py-3 text-sm font-semibold text-white whitespace-nowrap">教学内容</th>
+                                <th class="px-4 sm:px-6 py-3 text-sm font-semibold text-white whitespace-nowrap text-center" style="width: 18%;">理论学时</th>
+                                <th class="px-4 sm:px-6 py-3 text-sm font-semibold text-white whitespace-nowrap text-center" style="width: 22%;">进度</th>
+                            </tr>
+                        </thead>
+                        <tbody style="background-color: var(--color-surface);">
+                            <tr style="border-bottom: 1px solid var(--color-border);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第一章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">绪论</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第1周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border); background-color: var(--color-bg-secondary);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第二章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">模型评估与选择</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第2周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第三章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">线性模型</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">4</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第3-4周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border); background-color: var(--color-bg-secondary);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第四章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">决策树</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">4</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第5-6周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第五章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">神经网络</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">10</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第7-11周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border); background-color: var(--color-bg-secondary);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第六章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">支持向量机</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第12周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第七章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">贝叶斯分类器</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第13周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border); background-color: var(--color-bg-secondary);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第八章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">集成学习</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第14周</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid var(--color-border);">
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第九章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">聚类</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第15周</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 sm:px-6 py-3 text-sm whitespace-nowrap" style="color: var(--color-text-secondary);">第十章</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm" style="color: var(--color-text-primary);">概率图模型</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">2</td>
+                                <td class="px-4 sm:px-6 py-3 text-sm text-center whitespace-nowrap" style="color: var(--color-text-secondary);">第16周</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-8 lg:mb-10">先修课程</h2>
+                <div class="flex flex-wrap gap-3">
+                    <span class="tag-primary">高等数学</span>
+                    <span class="tag-primary">概率论与数理统计</span>
+                    <span class="tag-primary">Python语言编程</span>
+                    <span class="tag-primary">机器学习</span>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg-secondary);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-8 lg:mb-10">考核方式</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="card card-hover">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="heading-4">课堂表现</h3>
+                            <span class="inline-flex items-center justify-center px-3 py-1 text-xs font-semibold text-white whitespace-nowrap" style="background-color: var(--color-primary); border-radius: var(--radius-sm);">30%</span>
+                        </div>
+                        <p class="body-base">课堂认真听讲、按时完成作业、参与讨论</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="heading-4">课堂展示</h3>
+                            <span class="inline-flex items-center justify-center px-3 py-1 text-xs font-semibold text-white whitespace-nowrap" style="background-color: var(--color-primary); border-radius: var(--radius-sm);">40%</span>
+                        </div>
+                        <p class="body-base">分组协作，PPT梳理课程内容</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="heading-4">课程论文</h3>
+                            <span class="inline-flex items-center justify-center px-3 py-1 text-xs font-semibold text-white whitespace-nowrap" style="background-color: var(--color-primary); border-radius: var(--radius-sm);">30%</span>
+                        </div>
+                        <p class="body-base">论文内容完整，有反思收获及建议</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-8 lg:mb-10">教材与学习资源</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4 p-5 lg:p-6 card card-hover">
+                        <span class="inline-flex items-center justify-center w-8 h-8 text-white text-sm font-semibold shrink-0 mt-0.5" style="background-color: var(--color-primary); border-radius: var(--radius-md);">主</span>
+                        <div>
+                            <p class="text-base font-semibold mb-1" style="color: var(--color-text-primary);">《机器学习》</p>
+                            <p class="text-sm body-small">周志华 著 | 清华大学出版社 | 2016</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 p-5 lg:p-6 card card-hover">
+                        <span class="inline-flex items-center justify-center w-8 h-8 text-white text-sm font-semibold shrink-0 mt-0.5" style="background-color: var(--color-primary); border-radius: var(--radius-md);">主</span>
+                        <div>
+                            <p class="text-base font-semibold mb-1" style="color: var(--color-text-primary);">《人工智能生物学》</p>
+                            <p class="text-sm body-small">谢晖, 陈雪利 著 | 西安交通大学出版社 | 2021</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 p-5 lg:p-6" style="background-color: var(--color-bg-secondary); border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+                        <span class="inline-flex items-center justify-center w-8 h-8 text-sm font-semibold shrink-0 mt-0.5" style="background-color: var(--color-primary-lighter); color: var(--color-primary); border-radius: var(--radius-md);">参</span>
+                        <div>
+                            <p class="text-base font-semibold mb-1" style="color: var(--color-text-primary);">《神经网络与深度学习》</p>
+                            <p class="text-sm body-small">邱锡鹏 著 | 机械工业出版社 | 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="site-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="title">人工智能生物学</div>
+                    <div class="desc">齐鲁师范学院校级智慧课程，致力于将人工智能技术与生物学教学深度融合。</div>
+                </div>
+                <div class="footer-nav">
+                    <h4>课程导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="syllabus.html">课程大纲</a></li>
+                        <li><a href="team.html">教学团队</a></li>
+                        <li><a href="resources.html">教学资源</a></li>
+                        <li><a href="achievements.html">课程成果</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系信息</h4>
+                    <p>齐鲁师范学院<br>生命科学学院</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 齐鲁师范学院 生命科学学院 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

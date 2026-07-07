@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="light" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教学团队 - 人工智能生物学</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"PingFang SC"', '"Hiragino Sans GB"', '"Microsoft YaHei"', '"Noto Sans SC"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/lucide@1.8.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="site-container">
+            <div class="brand">
+                <span class="university">齐鲁师范学院</span>
+                <span class="separator">|</span>
+                <a href="index.html" class="title">人工智能生物学</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="syllabus.html">课程大纲</a>
+                <a href="team.html">教学团队</a>
+                <a href="resources.html">教学资源</a>
+                <a href="achievements.html">课程成果</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">
+                <i data-lucide="menu" class="w-5 h-5"></i>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-links">
+                <a href="index.html">首页</a>
+                <a href="syllabus.html">课程大纲</a>
+                <a href="team.html">教学团队</a>
+                <a href="resources.html">教学资源</a>
+                <a href="achievements.html">课程成果</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="page-header">
+            <div class="site-container">
+                <h1 class="heading-1">教学团队</h1>
+                <p>汇聚生命科学与人工智能领域的跨学科专家，共同构建前沿教学体系</p>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-3 mb-8" style="text-wrap: balance; word-break: keep-all;">课程负责人</h2>
+                <div class="card card-hover border rounded-xl p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+                    <div class="flex items-center justify-center w-20 h-20 rounded-full shrink-0" style="background-color: var(--color-primary-lighter);">
+                        <span class="text-2xl font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">于</span>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mb-3">
+                            <h3 class="heading-4">于昕</h3>
+                            <span class="text-sm px-3 py-1 rounded-md inline-flex items-center justify-center whitespace-nowrap tag-primary">副教授</span>
+                        </div>
+                        <p class="text-sm mb-3 body-small">生命科学学院</p>
+                        <p class="text-sm mb-4 body-small">
+                            <i data-lucide="mail" class="inline w-3.5 h-3.5 mr-1" style="vertical-align: -2px;"></i>
+                            <a href="mailto:yuxin@qlnu.edu.cn" class="hover:underline" style="color: var(--color-primary);">yuxin@qlnu.edu.cn</a>
+                        </p>
+                        <p class="body-base" style="line-height: var(--leading-relaxed);">
+                            负责人工智能生物学课程的整体设计与教学工作，主导 GeneLibs（基因云馆）平台的开发与建设，致力于将生物信息学与人工智能技术深度融合，推动基因组学数据分析的教学创新与实践应用。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg-secondary);">
+            <div class="site-container">
+                <h2 class="heading-3 mb-8" style="text-wrap: balance; word-break: keep-all;">课程团队成员</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-primary-50);">
+                                <span class="text-base font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">商</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">商敬敏</h4>
+                                <p class="text-sm truncate body-small">齐鲁师范学院</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-primary-50);">
+                                <span class="text-base font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">高</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">高珊</h4>
+                                <p class="text-sm truncate body-small">齐鲁师范学院</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-primary-50);">
+                                <span class="text-base font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">束</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">束德峰</h4>
+                                <p class="text-sm truncate body-small">齐鲁师范学院</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-primary-50);">
+                                <span class="text-base font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">马</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">马龙</h4>
+                                <p class="text-sm truncate body-small">二代测序分析专家</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-primary-50);">
+                                <span class="text-base font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">刘</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">刘岩</h4>
+                                <p class="text-sm truncate body-small">山东大学</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-primary-50);">
+                                <span class="text-base font-semibold" style="color: var(--color-primary); font-family: var(--font-heading);">刘</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">刘晓煜</h4>
+                                <p class="text-sm truncate body-small">齐鲁师范学院</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-3 mb-8" style="text-wrap: balance; word-break: keep-all;">合作专家</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-bg-tertiary);">
+                                <span class="text-base font-semibold" style="color: var(--color-text-tertiary); font-family: var(--font-heading);">李</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">李老师</h4>
+                                <p class="text-sm truncate body-small">复旦大学</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-hover">
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center justify-center w-12 h-12 rounded-full shrink-0" style="background-color: var(--color-bg-tertiary);">
+                                <span class="text-base font-semibold" style="color: var(--color-text-tertiary); font-family: var(--font-heading);">李</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="font-semibold text-base truncate" style="color: var(--color-text-primary); font-family: var(--font-heading);">李老师</h4>
+                                <p class="text-sm truncate body-small">北京协和医院</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg-secondary);">
+            <div class="site-container">
+                <h2 class="heading-3 mb-8" style="text-wrap: balance; word-break: keep-all;">基因云馆实验室</h2>
+                <div class="card card-hover">
+                    <p class="body-base" style="line-height: var(--leading-relaxed);">
+                        基因云馆实验室由齐鲁师范学院与济南弘晖生物技术有限公司联合共建，依托 GeneLibs 平台开展基因组学数据分析与生物信息学教学工作。实验室致力于为教学科研提供高性能计算资源与数据存储服务，推动人工智能技术在生物学领域的应用研究与人才培养。
+                    </p>
+                    <a href="https://www.genelibs.cn" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-6 px-5 py-2.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors duration-150 hover:opacity-90 btn-outline">
+                        访问 GeneLibs
+                        <i data-lucide="external-link" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="site-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="title">人工智能生物学</div>
+                    <div class="desc">齐鲁师范学院校级智慧课程，致力于将人工智能技术与生物学教学深度融合。</div>
+                </div>
+                <div class="footer-nav">
+                    <h4>课程导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="syllabus.html">课程大纲</a></li>
+                        <li><a href="team.html">教学团队</a></li>
+                        <li><a href="resources.html">教学资源</a></li>
+                        <li><a href="achievements.html">课程成果</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系信息</h4>
+                    <p>齐鲁师范学院<br>生命科学学院</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 齐鲁师范学院 生命科学学院 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

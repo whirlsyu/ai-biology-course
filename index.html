@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="light" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人工智能生物学 - 齐鲁师范学院</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"PingFang SC"', '"Hiragino Sans GB"', '"Microsoft YaHei"', '"Noto Sans SC"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/lucide@1.8.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="site-container">
+            <div class="brand">
+                <span class="university">齐鲁师范学院</span>
+                <span class="separator">|</span>
+                <a href="index.html" class="title">人工智能生物学</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="syllabus.html">课程大纲</a>
+                <a href="team.html">教学团队</a>
+                <a href="resources.html">教学资源</a>
+                <a href="achievements.html">课程成果</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">
+                <i data-lucide="menu" class="w-5 h-5"></i>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-links">
+                <a href="index.html">首页</a>
+                <a href="syllabus.html">课程大纲</a>
+                <a href="team.html">教学团队</a>
+                <a href="resources.html">教学资源</a>
+                <a href="achievements.html">课程成果</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="relative flex items-center justify-center text-center" style="min-height: 520px; padding-top: 64px; background-image: url('assets/image_1_yi19x4.jpg'); background-size: cover; background-position: center; overflow: hidden;">
+            <div class="absolute inset-0" style="background-image: url('assets/image_1_yi19x4.jpg'); background-size: cover; background-position: center; filter: blur(8px) brightness(0.7); transform: scale(1.1);"></div>
+            <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(16,85,55,0.85) 0%, rgba(6,78,59,0.9) 100%);"></div>
+            <div class="relative z-10 max-w-3xl mx-auto px-6 py-16 md:py-20">
+                <h1 class="text-white font-bold text-4xl md:text-5xl mb-3" style="text-wrap: balance; word-break: keep-all; overflow-wrap: break-word; letter-spacing: -0.02em; line-height: 1.15;">人工智能生物学</h1>
+                <p class="text-white/75 text-lg md:text-xl mb-4" style="font-weight: 400; letter-spacing: 0.02em;">Artificial Intelligence Biology</p>
+                <p class="text-white/80 text-base md:text-lg mb-8" style="line-height: 1.7; max-width: 540px; margin-left: auto; margin-right: auto;">AI赋能生命科学，培养新时代复合型人才</p>
+                <div class="flex flex-wrap items-center justify-center gap-3 mb-8">
+                    <span class="tag">专业选修</span>
+                    <span class="tag">2学分</span>
+                    <span class="tag">32学时</span>
+                    <span class="tag">第7学期</span>
+                </div>
+                <a href="syllabus.html" class="btn-primary">了解更多</a>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-2 pb-3" style="border-bottom: 2px solid var(--color-border-light); letter-spacing: -0.015em; word-break: keep-all;">课程简介</h2>
+                <p class="body-large mb-12" style="margin-top: 8px;">生命科学学院 · 生物信息学专业</p>
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16">
+                    <div class="lg:col-span-3">
+                        <p class="body-base" style="line-height: 1.75;">
+                            本课程面向生物信息学专业高年级学生，系统讲授人工智能技术在生命科学领域的核心应用。课程围绕基因组学大数据分析、蛋白质结构预测、生物信息学中的机器学习方法等前沿方向展开，涵盖从数据采集与预处理到模型构建与结果解读的完整分析流程。
+                        </p>
+                        <p class="body-base mt-5" style="line-height: 1.75;">
+                            通过理论讲授与案例驱动的混合教学模式，结合基因云馆平台实操训练，学生将掌握AI工具在生物学研究中的实际应用能力，理解深度学习、统计分析等关键技术原理，具备运用人工智能解决生物学问题的基本素养。
+                        </p>
+                    </div>
+                    <div class="lg:col-span-2">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="card card-hover">
+                                <div class="text-3xl font-bold" style="color: var(--color-primary); font-variant-numeric: tabular-nums;">3</div>
+                                <div class="text-sm mt-1 body-small">轮开课</div>
+                            </div>
+                            <div class="card card-hover">
+                                <div class="text-3xl font-bold" style="color: var(--color-primary); font-variant-numeric: tabular-nums;">~400</div>
+                                <div class="text-sm mt-1 body-small">选课人次</div>
+                            </div>
+                            <div class="card card-hover">
+                                <div class="text-3xl font-bold" style="color: var(--color-primary); font-variant-numeric: tabular-nums;">14</div>
+                                <div class="text-sm mt-1 body-small">个课件</div>
+                            </div>
+                            <div class="card card-hover">
+                                <div class="text-3xl font-bold" style="color: var(--color-primary); font-variant-numeric: tabular-nums;">32</div>
+                                <div class="text-sm mt-1 body-small">篇参考文献</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg-secondary);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-10 pb-3" style="border-bottom: 2px solid var(--color-border-light); letter-spacing: -0.015em; word-break: keep-all;">课程特色</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="card card-hover">
+                        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="book-open" class="w-5 h-5" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="heading-4 mb-2" style="word-break: keep-all;">理论与实践融合</h3>
+                        <p class="body-small" style="line-height: 1.7;">理论讲授+案例驱动+平台实操混合式教学模式，将人工智能原理与生物学真实问题紧密结合。</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="wrench" class="w-5 h-5" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="heading-4 mb-2" style="word-break: keep-all;">AI工具实战</h3>
+                        <p class="body-small" style="line-height: 1.7;">基于基因云馆平台集成六大功能模块，从数据库检索到蛋白质结构预测，覆盖完整AI分析流程。</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-10 h-10 rounded-lg flex items-center justify-center mb-4" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="brain" class="w-5 h-5" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="heading-4 mb-2" style="word-break: keep-all;">智慧教学体系</h3>
+                        <p class="body-small" style="line-height: 1.7;">智能讲稿、学生动态画像、AI辅助数据分析智能体，构建个性化学习反馈闭环。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg);">
+            <div class="site-container">
+                <h2 class="heading-2 mb-10 pb-3" style="border-bottom: 2px solid var(--color-border-light); letter-spacing: -0.015em; word-break: keep-all;">教学模式</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+                    <div class="rounded-lg overflow-hidden border" style="border: 1px solid var(--color-border-light);">
+                        <img src="assets/image_0_yi19x4.jpg" alt="课堂教学场景" class="w-full h-auto object-cover" style="aspect-ratio: 16/10;">
+                    </div>
+                    <div>
+                        <h3 class="heading-3 mb-4" style="word-break: keep-all;">三方协同教学</h3>
+                        <p class="body-base mb-6" style="line-height: 1.75;">
+                            课程采用"教师引导+AI辅助+学生实操"三方协同教学模式。教师负责理论框架搭建与核心概念讲授，AI平台提供数据分析工具与实时反馈，学生在真实项目中完成从问题定义到结果输出的全流程实践。
+                        </p>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: var(--color-primary-50);">
+                                    <i data-lucide="user" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm font-semibold" style="color: var(--color-text-primary);">教师引导</div>
+                                    <div class="text-sm mt-0.5 body-small">核心理论讲授与研究方向指导</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: var(--color-primary-50);">
+                                    <i data-lucide="cpu" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm font-semibold" style="color: var(--color-text-primary);">AI辅助</div>
+                                    <div class="text-sm mt-0.5 body-small">智能讲稿与数据分析平台支撑</div>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5" style="background-color: var(--color-primary-50);">
+                                    <i data-lucide="flask-conical" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm font-semibold" style="color: var(--color-text-primary);">学生实操</div>
+                                    <div class="text-sm mt-0.5 body-small">项目驱动的全流程动手实践</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: var(--color-bg-secondary);">
+            <div class="site-container">
+                <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+                    <div>
+                        <h2 class="heading-2 pb-3" style="border-bottom: 2px solid var(--color-border-light); letter-spacing: -0.015em; word-break: keep-all;">基因云馆平台</h2>
+                    </div>
+                    <a href="https://www.genelibs.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm whitespace-nowrap transition-colors duration-150 hover:opacity-80 shrink-0" style="color: var(--color-primary); font-weight: 500;">
+                        访问 genelibs.com
+                        <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                    </a>
+                </div>
+                <p class="body-base mb-10" style="line-height: 1.75; max-width: 640px;">
+                    GeneLibs 基因云馆是本课程的核心实践教学平台，集成六大功能模块，覆盖生物学数据分析的完整工具链，为学生提供一站式AI辅助科研体验。
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="card card-hover">
+                        <div class="w-8 h-8 rounded-lg flex items-center justify-center mb-3" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="database" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="text-base font-semibold mb-1" style="color: var(--color-text-primary); word-break: keep-all;">数据库检索与预处理</h3>
+                        <p class="text-sm body-small" style="line-height: 1.6;">NCBI、Ensembl 等主流生物数据库的高效检索与格式转换</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-8 h-8 rounded-lg flex items-center justify-center mb-3" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="dna" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="text-base font-semibold mb-1" style="color: var(--color-text-primary); word-break: keep-all;">基因数据分析</h3>
+                        <p class="text-sm body-small" style="line-height: 1.6;">序列比对、差异表达分析、功能富集等基因 level 分析</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-8 h-8 rounded-lg flex items-center justify-center mb-3" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="bar-chart-3" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="text-base font-semibold mb-1" style="color: var(--color-text-primary); word-break: keep-all;">科研绘图</h3>
+                        <p class="text-sm body-small" style="line-height: 1.6;">高质量学术图表自动生成，满足论文发表标准</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-8 h-8 rounded-lg flex items-center justify-center mb-3" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="scan-line" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="text-base font-semibold mb-1" style="color: var(--color-text-primary); word-break: keep-all;">AI机器学习</h3>
+                        <p class="text-sm body-small" style="line-height: 1.6;">基于深度学习的生物序列特征提取与分类预测</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-8 h-8 rounded-lg flex items-center justify-center mb-3" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="trending-up" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="text-base font-semibold mb-1" style="color: var(--color-text-primary); word-break: keep-all;">专业统计分析</h3>
+                        <p class="text-sm body-small" style="line-height: 1.6;">方差分析、回归建模、多元统计等常用方法</p>
+                    </div>
+                    <div class="card card-hover">
+                        <div class="w-8 h-8 rounded-lg flex items-center justify-center mb-3" style="background-color: var(--color-primary-50);">
+                            <i data-lucide="atom" class="w-4 h-4" style="color: var(--color-primary);"></i>
+                        </div>
+                        <h3 class="text-base font-semibold mb-1" style="color: var(--color-text-primary); word-break: keep-all;">AlphaFold2蛋白质结构预测</h3>
+                        <p class="text-sm body-small" style="line-height: 1.6;">基于AlphaFold2的蛋白质三维结构预测与可视化</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="site-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="title">齐鲁师范学院</div>
+                    <div class="desc">
+                        生命科学学院 · 生物信息学专业<br>
+                        山东省济南市历下区
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4>课程导航</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="syllabus.html">课程大纲</a></li>
+                        <li><a href="team.html">教学团队</a></li>
+                        <li><a href="resources.html">教学资源</a></li>
+                        <li><a href="achievements.html">课程成果</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系方式</h4>
+                    <p>授课教师：于昕<br>邮箱：yuxin@qlnu.edu.cn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 齐鲁师范学院 生命科学学院 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
